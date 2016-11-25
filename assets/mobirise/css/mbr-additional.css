@@ -1,8 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+
+
 
 
 
@@ -484,9 +486,18 @@ h6,
 #header1-1 .mbr-section-title {
   font-family: 'PT Serif', serif;
 }
+#header1-1 .mbr-section-title SPAN {
+  font-family: 'Oswald', sans-serif;
+}
 #social-buttons4-x .mbr-section-title,
 #social-buttons4-x .btn-social {
   color: #fff;
+}
+#social-buttons4-x .mbr-section-title {
+  font-family: 'Oswald', sans-serif;
+}
+#footer1-2 P {
+  color: #efefef;
 }
 #menu-i .hide-buttons .nav-btn {
   display: none !important;
@@ -555,6 +566,12 @@ h6,
 #menu-i .close-icon::after {
   background-color: #c1c1c1;
 }
+#footer1-j P {
+  color: #efefef;
+}
+#gallery4-w LI {
+  color: #005cff;
+}
 
 
 #menu-s .hide-buttons .nav-btn {
@@ -564,18 +581,18 @@ h6,
   color: #ffffff;
 }
 #menu-s .navbar-toggler {
-  color: #000000;
+  color: #c1c1c1;
 }
 #menu-s .link,
 #menu-s .dropdown-item {
-  color: #000000;
+  color: #c1c1c1;
 }
 #menu-s .link {
-  font-size: 0.75rem;
+  font-size: 0.6rem;
 }
 #menu-s .dropdown-item,
 #menu-s .nav-dropdown-sm .link {
-  font-size: 0.812rem;
+  font-size: 0.650rem;
 }
 #menu-s .link:hover,
 #menu-s .dropdown-item:hover,
@@ -600,7 +617,7 @@ h6,
   background: #282828;
 }
 #menu-s .bg-color.transparent .link {
-  color: #000000;
+  color: #c1c1c1;
   transition: none;
 }
 #menu-s .bg-color.transparent.opened .link {
@@ -622,16 +639,20 @@ h6,
 }
 #menu-s .close-icon::before,
 #menu-s .close-icon::after {
-  background-color: #000000;
+  background-color: #c1c1c1;
+}
+#footer1-t P {
+  color: #efefef;
 }
 #form1-u .form-control-label {
   color: #232323;
 }
 #form1-u .btn {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 #form1-u .mbr-section-title {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  color: #005cff;
 }
 #menu-y .hide-buttons .nav-btn {
   display: none !important;
@@ -699,4 +720,10 @@ h6,
 #menu-y .close-icon::before,
 #menu-y .close-icon::after {
   background-color: #c1c1c1;
+}
+#footer1-z P {
+  color: #efefef;
+}
+#gallery4-10 LI {
+  color: #005cff;
 }
