@@ -1,8 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700);
-@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
 
 
 
@@ -487,14 +489,20 @@ h6,
   font-family: 'PT Serif', serif;
 }
 #header1-1 .mbr-section-title SPAN {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+#header1-1 .mbr-section-lead {
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
 }
 #social-buttons4-x .mbr-section-title,
 #social-buttons4-x .btn-social {
   color: #fff;
 }
 #social-buttons4-x .mbr-section-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 #footer1-2 P {
   color: #efefef;
@@ -506,11 +514,11 @@ h6,
   color: #ffffff;
 }
 #menu-i .navbar-toggler {
-  color: #c1c1c1;
+  color: #005cff;
 }
 #menu-i .link,
 #menu-i .dropdown-item {
-  color: #c1c1c1;
+  color: #005cff;
 }
 #menu-i .link {
   font-size: 0.6rem;
@@ -542,7 +550,7 @@ h6,
   background: #282828;
 }
 #menu-i .bg-color.transparent .link {
-  color: #c1c1c1;
+  color: #005cff;
   transition: none;
 }
 #menu-i .bg-color.transparent.opened .link {
@@ -564,7 +572,7 @@ h6,
 }
 #menu-i .close-icon::before,
 #menu-i .close-icon::after {
-  background-color: #c1c1c1;
+  background-color: #005cff;
 }
 #footer1-j P {
   color: #efefef;
@@ -572,6 +580,9 @@ h6,
 #gallery4-w LI {
   color: #005cff;
   text-align: center;
+}
+#gallery4-15 LI {
+  color: #005cff;
 }
 
 
@@ -582,11 +593,11 @@ h6,
   color: #ffffff;
 }
 #menu-s .navbar-toggler {
-  color: #c1c1c1;
+  color: #005cff;
 }
 #menu-s .link,
 #menu-s .dropdown-item {
-  color: #c1c1c1;
+  color: #005cff;
 }
 #menu-s .link {
   font-size: 0.6rem;
@@ -618,7 +629,7 @@ h6,
   background: #282828;
 }
 #menu-s .bg-color.transparent .link {
-  color: #c1c1c1;
+  color: #005cff;
   transition: none;
 }
 #menu-s .bg-color.transparent.opened .link {
@@ -640,7 +651,7 @@ h6,
 }
 #menu-s .close-icon::before,
 #menu-s .close-icon::after {
-  background-color: #c1c1c1;
+  background-color: #005cff;
 }
 #footer1-t P {
   color: #efefef;
@@ -652,7 +663,7 @@ h6,
   font-family: 'Oswald', sans-serif;
 }
 #form1-u .mbr-section-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   color: #005cff;
 }
 #menu-y .hide-buttons .nav-btn {
@@ -727,4 +738,77 @@ h6,
 }
 #gallery4-10 LI {
   color: #005cff;
+}
+#gallery4-14 LI {
+  color: #005cff;
+}
+#menu-11 .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-11 .navbar-caption {
+  color: #ffffff;
+}
+#menu-11 .navbar-toggler {
+  color: #005cff;
+}
+#menu-11 .link,
+#menu-11 .dropdown-item {
+  color: #005cff;
+}
+#menu-11 .link {
+  font-size: 0.6rem;
+}
+#menu-11 .dropdown-item,
+#menu-11 .nav-dropdown-sm .link {
+  font-size: 0.650rem;
+}
+#menu-11 .link:hover,
+#menu-11 .dropdown-item:hover,
+#menu-11 .link:focus,
+#menu-11 .dropdown-item:focus {
+  color: #c0a375;
+}
+#menu-11 .link[aria-expanded="true"],
+#menu-11 .dropdown-menu {
+  background: #0e0e0e;
+}
+#menu-11 .nav-dropdown-sm .link:focus,
+#menu-11 .nav-dropdown-sm .link:hover,
+#menu-11 .nav-dropdown-sm .dropdown-item:focus,
+#menu-11 .nav-dropdown-sm .dropdown-item:hover {
+  background: #202020!important;
+}
+#menu-11 .navbar,
+#menu-11 .nav-dropdown-sm,
+#menu-11 .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-11 .nav-dropdown-sm .dropdown-menu {
+  background: #282828;
+}
+#menu-11 .bg-color.transparent .link {
+  color: #005cff;
+  transition: none;
+}
+#menu-11 .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-11 .bg-color.transparent.opened .link:hover,
+#menu-11 .bg-color.transparent.opened .link:focus {
+  color: #c0a375;
+}
+#menu-11 .link[aria-expanded="true"],
+#menu-11 .dropdown-item[aria-expanded="true"] {
+  color: #c0a375!important;
+}
+#menu-11.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#menu-11 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#menu-11 .close-icon::before,
+#menu-11 .close-icon::after {
+  background-color: #005cff;
+}
+#footer1-12 P {
+  color: #efefef;
 }
