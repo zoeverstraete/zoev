@@ -1,9 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700);
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+
 
 
 
@@ -430,6 +433,7 @@ h6,
 #menu-0 .link,
 #menu-0 .dropdown-item {
   color: #005cff;
+  font-family: 'Droid Sans', sans-serif;
 }
 #menu-0 .link {
   font-size: 0.6rem;
@@ -489,12 +493,13 @@ h6,
   font-family: 'PT Serif', serif;
 }
 #header1-1 .mbr-section-title SPAN {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
   font-size: 60px;
   text-align: center;
+  color: #ffffff;
 }
 #header1-1 .mbr-section-lead {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
   text-align: center;
 }
 #social-buttons4-x .mbr-section-title,
@@ -506,7 +511,12 @@ h6,
 }
 #footer1-2 P {
   color: #efefef;
+  font-family: 'Droid Sans', sans-serif;
 }
+
+
+
+
 #menu-i .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -519,6 +529,7 @@ h6,
 #menu-i .link,
 #menu-i .dropdown-item {
   color: #005cff;
+  font-family: 'Droid Sans', sans-serif;
 }
 #menu-i .link {
   font-size: 0.6rem;
@@ -576,14 +587,22 @@ h6,
 }
 #footer1-j P {
   color: #efefef;
+  font-family: 'Droid Sans', sans-serif;
 }
 #gallery4-w LI {
   color: #005cff;
   text-align: center;
+  font-family: 'Droid Sans', sans-serif;
 }
 #gallery4-15 LI {
   color: #005cff;
+  font-family: 'Droid Sans', sans-serif;
 }
+#gallery4-16 LI {
+  color: #005cff;
+}
+
+
 
 
 #menu-s .hide-buttons .nav-btn {
@@ -598,6 +617,7 @@ h6,
 #menu-s .link,
 #menu-s .dropdown-item {
   color: #005cff;
+  font-family: 'Droid Sans', sans-serif;
 }
 #menu-s .link {
   font-size: 0.6rem;
@@ -655,6 +675,7 @@ h6,
 }
 #footer1-t P {
   color: #efefef;
+  font-family: 'Droid Sans', sans-serif;
 }
 #form1-u .form-control-label {
   color: #232323;
@@ -663,9 +684,11 @@ h6,
   font-family: 'Oswald', sans-serif;
 }
 #form1-u .mbr-section-title {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
   color: #005cff;
 }
+
+
 #menu-y .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -678,6 +701,7 @@ h6,
 #menu-y .link,
 #menu-y .dropdown-item {
   color: #005cff;
+  font-family: 'Droid Sans', sans-serif;
 }
 #menu-y .link {
   font-size: 0.6rem;
@@ -735,6 +759,7 @@ h6,
 }
 #footer1-z P {
   color: #efefef;
+  font-family: 'Droid Sans', sans-serif;
 }
 #gallery4-10 LI {
   color: #005cff;
@@ -742,6 +767,8 @@ h6,
 #gallery4-14 LI {
   color: #005cff;
 }
+
+
 #menu-11 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -754,6 +781,7 @@ h6,
 #menu-11 .link,
 #menu-11 .dropdown-item {
   color: #005cff;
+  font-family: 'Droid Sans', sans-serif;
 }
 #menu-11 .link {
   font-size: 0.6rem;
@@ -811,4 +839,11 @@ h6,
 }
 #footer1-12 P {
   color: #efefef;
+  font-family: 'Droid Sans', sans-serif;
+}
+#gallery4-13 LI {
+  color: #005cff;
+}
+#gallery4-17 LI {
+  color: #005cff;
 }
